@@ -1,0 +1,9 @@
+: 1
+name: nanobench
+version: 4.3.5-a.1
+summary: build2 for nanobench
+license: other: public domain 
+description-file: README.md
+url: https://github.com/martinus/nanobench
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0

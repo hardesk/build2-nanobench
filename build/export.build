@@ -1,0 +1,6 @@
+$out_root/
+{
+  include nanobench/
+}
+
+export $out_root/nanobench/$import.target

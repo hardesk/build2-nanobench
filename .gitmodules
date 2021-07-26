@@ -1,0 +1,3 @@
+[submodule "upstream/nanobench"]
+	path = upstream/nanobench
+	url = https://github.com/martinus/nanobench.git
