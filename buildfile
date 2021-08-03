@@ -1,11 +1,13 @@
 
 lib{nanobench}: upstream/nanobench/src/include/{hxx}{nanobench}
 
-cxx.poptions =+ "-I$out_root" "-I$src_root"
+# "-I$out_root"
+cxx.poptions =+ "-I$src_root"
 
 lib{nanobench}:
 {
-  cxx.export.poptions = "-I$out_root" "-I$src_root"
+  # "-I$out_root"
+  cxx.export.poptions = "-I$src_root/upstream/nanobench/src/include"
 }
 
 lib{nanobench}: bin.lib.version = @"-$version.major.$version.minor"
